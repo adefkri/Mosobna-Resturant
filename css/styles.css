@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 1200px;
+    margin: auto;
+    
+}
+
+.navbar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 72px;
+background-color: #D9D9D9;
+}
+
+.nav-wrapper {
+   width: 1200px;
+   margin: 0 auto;
+ 
+  
+}
+ nav{
+ 
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 72px; 
+}
+
+nav.logo {
+    position: absolute;
+    left:200px;
+    
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+nav ul{
+    display: flex;
+}
+
+.nav-items li {
+    margin-right: 100px;
+    font-size: 32px;
+    font-family: "poppins","Allura",sans-serif;
+    list-style: none;
+    }
+
+    .nav-items li a {
+        padding: 10px;
+        text-decoration: none;
+        color:yellow;
+        background-color:#802A49
+}
+
+.hero-img{
+    background-image: url(/img/hmbasha.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 550px;
+
+}
+main {
+    background-color: bisque;
+    height: 1056px;
+
+}
+.orderbtn {
+    position: absolute;
+    top: 400px;
+    left:600px;
+   
+
+   
+}
+h1 {
+   font-size: 72;
+    font-weight: 900;
+    margin-bottom: 24px;
+    text-align: center;
+    font-family: "Allura",sans-serif;
+}
+
+h{
+    font-size: 72;
+    font-weight: 900;
+}
+
+
+.video {
+    margin-bottom: 60px;
+}
+
+footer{
+    background-color: #D9D9D9;
+    height: 72px;
+   
+}
+.footer-items {
+    text-align: center;
+    font-size: 25px;
+    
+}
+.clearfix {
+    clear: both;
+}
+
+
+.connect{
+background-image: url("/img/returantph.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 580px;
+position: relative;
+margin-bottom: 30px;
+margin-top: -10px;
+
+}
+
+.hero-imgmenu {
+    background-image: url(/img/fish.jpg);
+    background-size: cover;
+    position: relative;
+    height: 1056px;
+}
+
+.food-menu {
+    font-size: large;
+    font-weight:bold;
+    font-family:Josefin,sans-serif ;
+}
+
+
+.our-Adress{
+font-size: 24px;
+text-align: center;
+margin: 10px;
+font-weight: 900;
+}
+
+
+.goggle{
+    float: left;
+  }
+   
+  
+   .row {
+    float: right;
+    margin-right: 50px;
+   }
+   
+    .comments-form {
+        background-color:azure;
+        height: 350px;
+        width:550px;
+        border: solid blue 0.25px;
+        border-radius: 8px;
+        padding: 5px;
+    
+    }
+
+    label,input,button,textarea {
+        margin: 10px;
+        display: block;
+        text-align: left;
+        font-family: 'Gill Sans',  sans-serif;    
+    }
+    
+
+    input,textarea{
+        width: 80%;
+          }
+
+
+          .goggle,.form-row{
+            margin-bottom: 15px;
+            margin: 10px;
+        }
+            
+        
+        a {
+            text-decoration: none;
+            
+        }
+        
+
+        a:visited {
+            color:blueviolet
+        }
+         
+        
+        a:hover {
+            border: 0.5px solid gold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+    .more-imgs {
+      margin: 30px;
+      padding: 20px;
+        
+    }
+
