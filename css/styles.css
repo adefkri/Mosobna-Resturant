@@ -77,7 +77,7 @@ nav ul{
 }
 main {
     background-color: bisque;
-    background-image: url("/img/backgrSector.png");
+    background-image: url(/img/backgrSector.png);
     height: 1056px;
 
 }
